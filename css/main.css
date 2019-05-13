@@ -1773,7 +1773,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e0e2ab;
+  background: #ff9853;
 }
 .feed-link,
 .chat {
@@ -2983,4 +2983,10 @@ body {
   border-radius: 20px;
   padding: 30px 60px 30px 60px;
   background: rgba(255,255,255,0.3) none repeat scroll !important;
+}
+.sidebar {
+  left: 0;
+}
+.sidebar-toggle {
+  left: 30px;
 }

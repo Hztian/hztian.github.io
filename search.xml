@@ -23,6 +23,25 @@
     
     
     <entry>
+      <title>JavaScript的七种数据类型</title>
+      <link href="/2019/05/14/JavaScript%E7%9A%84%E4%B8%83%E7%A7%8D%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+      <url>/2019/05/14/JavaScript%E7%9A%84%E4%B8%83%E7%A7%8D%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
+      
+        <content type="html"><![CDATA[<blockquote><h1 id="JavaScript的七种数据类型"><a href="#JavaScript的七种数据类型" class="headerlink" title="JavaScript的七种数据类型"></a>JavaScript的七种数据类型</h1></blockquote><ol><li><p>number(数字)</p><p>十进制：</p><p>1</p><p>1.1            可以用.1表示0.1</p><p>1.11e2     表示1.11*<em>10</em>² </p></li></ol><p>   二进制：</p><p>   0b开头  如：0b11等于十进制的3</p><p>   八进制：</p><p>   如：011</p><p>   十进制：</p><p>   如：0x11</p><ol start="2"><li><p>String(字符串)</p><p>‘’  和 “”   单引号或双引号里面是内容</p><p>要注意的是，如果你定义的字符串内容里有‘ 和“还有\（单引号和双引号还有\）,则需要\（反斜杠，也叫转义符）来转义。</p></li></ol><ol start="3"><li><p>boolean(布尔)</p><p>就是ture 和 false。</p><p>a&amp;&amp;b(a与b):</p><p>| a/b  | 真   | 假   |<br>| —- | —- | —- |<br>| 真   | √    | ×    |<br>| 假   | ×    | ×    |</p><p>只有a和b都为真时，a&amp;&amp;b才为真。</p></li></ol><p>   a||b(a或b)</p><table><thead><tr><th>a/b</th><th>真</th><th>假</th></tr></thead><tbody><tr><td>真</td><td>√</td><td>√</td></tr><tr><td>假</td><td>√</td><td>×</td></tr></tbody></table><p>   只要a或b有一个为真，a||b就为真。</p><ol start="4"><li>Symbol(字符)</li></ol><ol start="5"><li><p>null</p><p>只有一个值，就是null，表示什么也没有</p></li></ol><ol start="6"><li>undefined</li></ol><p>   只有一个值，就是undefined，表示什么也没有</p><p>   只有JS有两个是表示空，算是JS设计的一个bug吧</p><p>   null和undefined的区别：</p><p>   ①变量没有值 ——JS推荐使用undefined</p><p>   ②有一个对象（object），现在不想赋值——推荐使用null</p><p>   ​    有一个非对象，现在不想赋值——推荐使用undefined</p><ol start="7"><li><p>object(对象)</p><p>哈希表也是对象，对象里可以还有对象，对象就是简单类型的组合。</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> HTML </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>k670e-g6d1黑苹果EFI</title>
       <link href="/2019/05/13/k670e-g6d1%E9%BB%91%E8%8B%B9%E6%9E%9CEFI/"/>
       <url>/2019/05/13/k670e-g6d1%E9%BB%91%E8%8B%B9%E6%9E%9CEFI/</url>

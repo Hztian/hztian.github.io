@@ -1773,7 +1773,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #088a1b;
+  background: #289e86;
 }
 .feed-link,
 .chat {
@@ -2970,7 +2970,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: 50% 50%;
 }
 .post {
   margin-top: 60px;
@@ -2980,12 +2980,12 @@ body {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .page {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .content,
 .comments {
-  border-radius: 20px;
-  padding: 30px 60px 30px 60px;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
   background: rgba(255,255,255,0.3) none repeat scroll !important;
 }
 .sidebar {
@@ -2993,4 +2993,17 @@ body {
 }
 .sidebar-toggle {
   left: 30px;
+}
+#footer a {
+  color: #eee;
+}
+.site-meta {
+  padding: 20px 0;
+  color: #fff;
+  background: #008000;
+}
+.site-subtitle {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #fff;
 }
